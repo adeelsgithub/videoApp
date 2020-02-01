@@ -1,0 +1,25 @@
+header{
+    padding: 10px 30px;
+    text-align: center;
+}
+.userInput{
+    padding: 10px;
+    margin: 5px;
+}
+.userInput input{
+    width: 50vw;
+    padding: 10px;
+    border: 1px solid #202020;
+    border-radius: 30px;
+    background-color: #fff;
+}
+.userInput button, .userInput button:visited {
+    padding: 10px;
+    width:120px;
+    border: 1px solid #202020;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin:10px;
+    background-color: #fff;
+}

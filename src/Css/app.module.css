@@ -1,0 +1,13 @@
+.mainGrid{
+    display: grid;
+    grid-template-columns: 1fr 390px;
+    grid-gap: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+@media (max-width:950px){
+    .mainGrid{
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,14 @@
+.listGrid{
+    display: grid;
+    grid-template-columns: 130px 1fr;
+    grid-auto-rows: 135px;
+    grid-gap:5px;
+    align-items: center;
+    justify-items: center;
+    cursor: pointer;
+}
+
+.listGrid p {
+    margin: 2px;
+    justify-self:start; 
+}
